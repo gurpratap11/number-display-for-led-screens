@@ -13,7 +13,7 @@ int digits(long long int a)
                 x = x * 10;
                 count++;
             }
-            else if (a / x < 9)
+            else if (a / x <= 9)
             {
                 count = count + 2;
                 break;
